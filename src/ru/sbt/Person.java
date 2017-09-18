@@ -43,8 +43,4 @@ public class Person {
         return false;
     }
 
-    public void checkStatus(){
-        if (this.spouse != null) System.out.println("\t "+this.name +"\t Married");
-        else System.out.println("\t "+this.name +"\t Single");
-    }
 }
